@@ -33,17 +33,18 @@ Adjust the parameters in the 'arm_templates/parms.json' files according to your 
 
 Run the deployment script in the powershell terminal as given in the 'deployments/deploy.ps' file.
 
-Folder Structure
+5.Folder Structure
 The project follows a structured organization:
 
 arm-templates:
+
 1.Contains Azure Resource Manager (ARM) templates for VMs and Load Balancer.
 2.Contains Parameter files for the ARM templates and Load Balancer.
 
 Deployment: 
 Contains deployment scripts.
 
-License
+6.License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 
