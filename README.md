@@ -1,4 +1,4 @@
-# Azure Virtual Machines with Load Balancer Deployment
+ # Azure Virtual Machines with Load Balancer Deployment
 
 This project facilitates the deployment of two Azure virtual machines (VMs) and adds them to the backend pool of an Azure Load Balancer. The purpose of this setup is to achieve high availability and distribute incoming network traffic across multiple VMs.
 
@@ -26,14 +26,13 @@ Change your working directory to the project folder:
 cd loadbalancer
 ```
 
-3. Modify Parameters
+3. Modify Parameters :
 Adjust the parameters in the 'arm_templates/parms.json' files according to your requirements. This file includes settings such as VM size, OS version, admin credentials, and more.
 
-4. Run the Deployment Script
-
+4. Run the Deployment Script :
 Run the deployment script in the powershell terminal as given in the 'deployments/deploy.ps' file.
 
-5.Folder Structure
+5. Folder Structure :
 The project follows a structured organization:
 
 arm-templates:
@@ -44,7 +43,7 @@ arm-templates:
 Deployment: 
 Contains deployment scripts.
 
-6.License
+6. License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 
