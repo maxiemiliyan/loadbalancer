@@ -2,11 +2,11 @@
 
 This project facilitates the deployment of two Azure virtual machines (VMs) and adds them to the backend pool of an Azure Load Balancer. The purpose of this setup is to achieve high availability and distribute incoming network traffic across multiple VMs.
 
-## Prerequisites
+ Prerequisites
 
 Before proceeding with the deployment, ensure you have the following prerequisites in place:
 
-1. **Azure Subscription: Obtain an Azure subscription.
+1. Azure Subscription: Obtain an Azure subscription.
 
 ## Deployment Steps
 
@@ -44,7 +44,7 @@ Deployment:
 Contains deployment scripts.
 
 License
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 
 
